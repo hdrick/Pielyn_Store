@@ -1,0 +1,79 @@
+
+/* CLASS............ */
+
+/* cntainer */
+.main-content{
+  display: block;
+
+}
+.category-container{
+  width: 100%;
+  margin-top: 10px;
+  box-shadow: 1px -1px 1px 1px rgb(194, 192, 192);
+  border-radius: 5px;
+  background-color: white;
+}
+
+/* label */
+.text-category{
+  font-family: 'Open Sans', sans-serif;
+  color: #008D96;
+  padding: 5px;
+}
+
+.category-table{
+  width: 100%;
+  border-collapse: collapse;
+  font-weight: 900;
+}
+
+.category-table td, .category-table th{
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+}
+.category-table th{
+    background-color: #008D96;
+    color: white;
+    text-align: left;
+    width: 85%;
+}
+.category-container .category-table .op{
+  text-align: center;
+}
+
+.U-D{
+  text-align: center;
+  padding-left: 30px;
+}
+
+.update{
+  background-color: #008D96;
+  padding: 5px;
+  border-radius: 2px;
+  color: white;
+  font-weight: bolder;
+}
+
+.delete{
+  background-color:  #F58220;
+  padding: 5px;
+  border-radius: 2px;
+  color: white;
+  font-weight: bolder;
+}
+
+.update:hover{
+  background-color: #008c96a4;
+  transition: 0.5s;
+}
+.delete:hover{
+  background-color: #f8bf8d;
+  transition: 0.5s;
+}
+
+.wrapper .side-bar .cat{
+  background: white;
+  transition: 0.2s;
+  color: #008c96a4;
+  margin-left: 10px;
+}
